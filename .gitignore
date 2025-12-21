@@ -25,6 +25,16 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+# Ignore the virtual environment folder
+venv/
+env/
+
+# Ignore local configuration files
+.env
+
+# Ignore compiled python files
+__pycache__/
+*.pyc
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
